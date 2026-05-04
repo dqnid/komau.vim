@@ -23,6 +23,7 @@ local defaults = {
         telescope = true,
         gitsigns = true,
         nvimtree = true,
+        neotree = true,
         trouble = true,
         hop = true,
         which_key = true,
