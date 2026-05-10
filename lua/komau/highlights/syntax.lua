@@ -57,7 +57,8 @@ function M.get(colors, config)
     highlights.Todo = { fg = colors.accent, underline = true }
     highlights.SpecialKey = { fg = colors.green }
     highlights.NonText = { fg = colors.medium_gray }
-    highlights.Directory = { fg = colors.norm, bold = true }
+    highlights.Directory = { fg = colors.norm, bold = true, bg = colors.bg_very_very_subtle }
+    highlights.Filler = { fg = colors.accent, bold = true, bg = colors.bg_very_very_subtle }
 
     highlights.MarkdownCode = { fg = colors.bg_subtle }
     highlights.MarkdownLinkReference = { fg = colors.bg_subtle }

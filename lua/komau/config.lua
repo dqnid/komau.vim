@@ -31,9 +31,10 @@ local defaults = {
         notify = true,
         mini = true,
         dashboard = true,
+        lualine = true,
         statusline = {
             lightline = true,
-            lualine = true,
+            lualine = false,
         },
     },
 }

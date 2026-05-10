@@ -219,11 +219,11 @@ local function lualine(colors)
         normal = {
             a = { fg = colors.bg, bg = colors.accent, gui = "bold" },
             b = { fg = colors.norm, bg = colors.bg_subtle },
-            c = { fg = colors.norm, bg = colors.bg_very_subtle },
+            c = { fg = colors.norm, bg = colors.bg_very_very_subtle },
         },
         insert = {
-            a = { fg = colors.bg, bg = colors.hint, gui = "bold" },
-            b = { fg = colors.norm, bg = colors.bg_subtle },
+            a = { fg = colors.bg, gui = "bold", bg = colors.bg_very_very_subtle },
+            b = { fg = colors.norm, bg = colors.bg_very_very_subtle },
             c = { fg = colors.norm, bg = colors.bg_very_subtle },
         },
         visual = {
